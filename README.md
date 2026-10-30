@@ -8,9 +8,19 @@
 
 Project Brain organizes notes and GitHub activity into evidence-linked project records. It helps a developer return to a project, see recent changes, review uncertain interpretations, and decide what to do next.
 
-[Open Project Brain](https://project-brain.joezhuzc.chatgpt.site) · [Engineering overview](ENGINEERING.md)
+[Open Project Brain](https://project-brain.joezhuzc.chatgpt.site) · [Engineering overview](ENGINEERING.md) · [Visual walkthrough](WALKTHROUGH.md)
 
 The hosted app requires sign-in. This repository is a public product and engineering showcase; the application source remains private.
+
+## See the interface
+
+**Actual React interface, fictional workspace.** These screenshots were captured from the application's existing React components in a local preview, using synthetic project records and GitHub evidence. The preview is disconnected from production; the application source remains private.
+
+![Project Brain: review a proposed state change alongside current capabilities and source evidence](assets/screenshots/project-state-demo.jpg)
+
+A merged PR appears as evidence and a **reviewable suggestion**. The capability remains **Building** until the user accepts a change; **Implemented** and **Shipped** remain distinct.
+
+[See the Overview and Quick Capture review flow →](WALKTHROUGH.md)
 
 ## Why I built it
 
@@ -65,5 +75,5 @@ I am the founder and solo full-stack developer. I designed the product workflow,
 
 The current interpretation layer uses deterministic rules. AI-based interpretation and historical repository import are future work. The showcase describes implemented behavior rather than the broader product roadmap.
 
-The repository contains documentation and a public brand image only. See [NOTICE](NOTICE.md).
+The repository contains documentation, a public brand image, and interface screenshots. See [NOTICE](NOTICE.md).
 
